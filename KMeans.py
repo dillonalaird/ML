@@ -16,7 +16,7 @@ class KMeans(object):
             # Set centers to be centers passed in
             self.centers = centers
 
-    def infer(self):
+    def fit(self):
         self.assign_at_it = []
 
         it = 0
